@@ -1,8 +1,8 @@
 class Acwake < Formula
   desc "macOS launchd daemon to stay awake on AC, sleep on battery"
   homepage "https://github.com/pkhr/acwake"
-  url "https://github.com/pkhr/acwake/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "cd12d025af92c466c75684a749a4c167063c8c4ef6c000c8ebe51343bccbfd74"
+  url "https://github.com/pkhr/acwake/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "048c90f6d7b185c751e1b93cfaaad356d2832a0d8677bf018df291023e1f9d8e"
   license "MIT"
   head "https://github.com/pkhr/acwake.git", branch: "main"
 
