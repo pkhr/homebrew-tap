@@ -1,6 +1,6 @@
 cask "mf4700-print-scan" do
-  version "2.6"
-  sha256 "c7fdef750e8e993ac49247f40c7efd7392a2ba06ed0701293d3126b2850af507"
+  version "2.6.1"
+  sha256 "26f9d0b89e67e889866c2d401cbd8e433195fe1c196b7dbc4d078e796868dc8c"
 
   url "https://github.com/pkhr/mf4700-print-scan/releases/download/v#{version}/Canon-MF4780w-Print-and-Scan-#{version}.dmg"
   name "Canon MF4780w Print & Scan"
@@ -25,8 +25,6 @@ cask "mf4700-print-scan" do
   ]
 
   caveats <<~EOS
-    #{token} is not notarized by Apple, so macOS blocks its first launch:
-    open it once, then click Open Anyway in System Settings > Privacy & Security.
-    After an upgrade, open the app again.
+    An upgrade quits Canon MF4780w Print & Scan: open it again afterwards.
   EOS
 end
