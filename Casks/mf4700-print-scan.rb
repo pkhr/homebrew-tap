@@ -1,6 +1,6 @@
 cask "mf4700-print-scan" do
-  version "2.6.1"
-  sha256 "26f9d0b89e67e889866c2d401cbd8e433195fe1c196b7dbc4d078e796868dc8c"
+  version "2.7"
+  sha256 "5dd38998ad0ab8ce9f69b72a0ce451a11ac287e0875159777a94dd4d54c74497"
 
   url "https://github.com/pkhr/mf4700-print-scan/releases/download/v#{version}/Canon-MF4780w-Print-and-Scan-#{version}.dmg"
   name "Canon MF4780w Print & Scan"
